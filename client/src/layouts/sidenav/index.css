@@ -1,0 +1,24 @@
+.logo {
+  height: 80px;
+  color: white;
+}
+
+.sidenav {
+  background-color: var(--clr-dark-2);
+  height: 100vh;
+  width: 80px;
+  position: fixed;
+  top: 0;
+  flex-flow: column wrap;
+}
+
+.sidenav-box {
+  height: 80px;
+  color: white;
+  opacity: 0.3;
+}
+
+.sidenav-box-active {
+  background-color: var(--clr-blue-2);
+  opacity: 1;
+}
